@@ -7,17 +7,22 @@ const About = () => {
             <div className="content">
                 <div>
                     <strong>Languages:</strong>
-                    <li>C++</li>
+                    <li>JavaScript</li>
                     <li>Python</li>
                     <li>Swift</li>
-                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>C++</li>
                 </div>
                 <div>
                     <strong>Libraries:</strong>
-                    <li>Bootstrap</li>
                     <li>Express.js</li>
                     <li>Three.js</li>
                     <li>React.js</li>
+                </div>
+                <div>
+                    <strong>Cloud:</strong>
+                    <li>AWS Certified</li>
+                    <li>Azure Experience</li>
                 </div>
 
             </div>

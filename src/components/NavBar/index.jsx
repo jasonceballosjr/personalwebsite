@@ -43,7 +43,7 @@ const NavBar = () => {
                 </div>
                 <div className="list-wrapper">
                     <img
-                        src={bars}//FIX
+                        src={bars}
                         alt="Menu bars"
                         style={{ opacity: !open ? 1 : 0 }}
                         onClick={() => {
@@ -51,7 +51,7 @@ const NavBar = () => {
                         }}
                     />
                     <img
-                        src={cross}//FIX
+                        src={cross}
                         alt="Menu cross"
                         style={{ opacity: open ? 1 : 0 }}
                         onClick={() => {
@@ -67,7 +67,7 @@ const NavBar = () => {
                                 style={{ color: location.pathname === "/" && "#4071f4" }}
                             >
                                 Home
-              </Link>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -76,7 +76,7 @@ const NavBar = () => {
                                 style={{ color: location.pathname === "/about" && "#4071f4" }}
                             >
                                 About
-              </Link>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -85,7 +85,7 @@ const NavBar = () => {
                                 style={{ color: location.pathname === "/skills" && "#4071f4" }}
                             >
                                 Skills
-              </Link>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -94,7 +94,7 @@ const NavBar = () => {
                                 style={{ color: location.pathname === "/works" && "#4071f4" }}
                             >
                                 Works
-              </Link>
+                            </Link>
                         </li>
                         <li>
                             <Link
@@ -103,7 +103,7 @@ const NavBar = () => {
                                 style={{ color: location.pathname === "/contact" && "#4071f4" }}
                             >
                                 Contact
-              </Link>
+                            </Link>
                         </li>
                     </ul>
                 </div>

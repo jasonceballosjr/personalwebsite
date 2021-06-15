@@ -12,10 +12,8 @@ const About = () => {
                 tabIndex="0"
             ></iframe>
 
-            <h4>Phone</h4>
-
-
-            <h4>Email</h4>
+            <h4>Email:</h4>
+            <p>jasonceballosjr@jasonceballosjr.com</p>
         </div>
     );
 };

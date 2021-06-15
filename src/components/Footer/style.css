@@ -10,3 +10,7 @@ footer {
   footer img:not(:last-child) {
     margin-right: 10px;
   }
+  .linkedin{
+    padding-left: 2em;
+    
+  }

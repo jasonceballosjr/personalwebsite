@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import jason from '../../pics/jason.jpg';
 import "./style.css";
 
 const Home = () => {
@@ -8,7 +8,7 @@ const Home = () => {
             <div className="title">
                 <h1>
                     <p>Hi,</p>
-                    <p>I am Jason</p>
+                    <p>I am Jason!</p>
                     <p>Software Engineer</p>
                 </h1>
                 <Link to="about">
@@ -17,7 +17,7 @@ const Home = () => {
             </div>
             <div className="person">
                 <img
-                    src={`${process.env.PUBLIC_URL}/mo-logo.png`}
+                    src={jason}
                     alt="person picture"
                 />
             </div>

@@ -12,7 +12,7 @@
   
   .logo {
     display: flex;
-    max-width: 130px;
+    max-width: 150px;
     height: 100%;
   }
   
@@ -49,25 +49,25 @@
     display: block;
     font-size: 24px;
     padding: 10px 0;
-    color: #dddddd;
+    color: #ffffff;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
   }
   
   .list-wrapper ul li a:hover {
     color: #000000;
-    background-color: #dddddd;
+    background-color: #f04c68;
   }
   
   .list-wrapper img {
     opacity: 0;
     z-index: 4;
-    width: 40px;
+    width: 60px;
     right: 15px;
     padding: 8px;
     position: absolute;
     border-radius: 999px;
-    background-color: #dddddd;
+    background-color: #ffffff;
     transition: all 0.5s ease-in-out;
   }
   
@@ -101,7 +101,7 @@
   
     .list-wrapper ul li a:hover {
       padding: 5px;
-      color: #333333;
+      color: #ffffff;
       transform: scale(0.8);
       background: transparent;
     }
