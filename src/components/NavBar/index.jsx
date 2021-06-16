@@ -64,7 +64,7 @@ const NavBar = () => {
                             <Link
                                 to="/"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/" && "#4071f4" }}
+                                style={{ color: location.pathname === "/" && "#f04c68" }}
                             >
                                 Home
                             </Link>
@@ -73,7 +73,7 @@ const NavBar = () => {
                             <Link
                                 to="/about"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/about" && "#4071f4" }}
+                                style={{ color: location.pathname === "/about" && "#f04c68" }}
                             >
                                 About
                             </Link>
@@ -82,7 +82,7 @@ const NavBar = () => {
                             <Link
                                 to="/skills"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/skills" && "#4071f4" }}
+                                style={{ color: location.pathname === "/skills" && "#f04c68" }}
                             >
                                 Skills
                             </Link>
@@ -91,7 +91,7 @@ const NavBar = () => {
                             <Link
                                 to="/works"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/works" && "#4071f4" }}
+                                style={{ color: location.pathname === "/works" && "#f04c68" }}
                             >
                                 Works
                             </Link>
@@ -100,7 +100,7 @@ const NavBar = () => {
                             <Link
                                 to="/contact"
                                 onClick={handleClose}
-                                style={{ color: location.pathname === "/contact" && "#4071f4" }}
+                                style={{ color: location.pathname === "/contact" && "#f04c68" }}
                             >
                                 Contact
                             </Link>
