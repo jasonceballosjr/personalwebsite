@@ -12,8 +12,8 @@ const About = () => {
                 tabIndex="0"
             ></iframe>
 
-            <h4>Email:</h4>
-            <p>jasonceballosjr@jasonceballosjr.com</p>
+            <h4>Contact:</h4>
+            <p>Please reach out on LinkedIn!</p>
         </div>
     );
 };
