@@ -5,20 +5,27 @@ const About = () => {
         <div className="works">
             <h1>Experiences</h1>
             <p>Company:<strong> GE Healthcare</strong></p>
-            <p>Role: DTLP Intern</p>
-            <p>Date: 06/2021</p>
+            <p>Role: DT Intern</p>
+            <p>Date: 07/2021</p>
             <p>
-                Full-time, two-year leadership development program where I work within a GE business (GE Nuclear, GE Healthcare, GE Aviation, etc.) alongside experts in various locations.
-                Four, six-month rotational assignments within my specific business covering diverse projects in Data Analytics & Operations, Technical Product Management, Digital Engineering, and more.
-                Global classroom experience and virtual coursework focused on technical training, leadership, and business acumen
-                Over the course of the program, I've received a broad set of diverse assignments spanning areas such as project and product management, data analytics, IT operations, software development, and more.
+                <li>Lead a cross functional team on automating manual data loads and their respective data sources in all modalities within GE Healthcare (Highest Priority).</li>
+                <li>Hosted daily standups in CST and IST (India Standard Time) to communicate between teams on updates and progress every 12 hours.</li>
+                <li>Oversaw tickets/cases within Salesforce, prioritized each based on the type of issue, deadlines and effort, then communicated across the teams to allocate efforts/resources effectively.</li>
+                <li>Structured and delivered a bi-weekly data summary presentation of cases within Salesforce that highlighted changes/progress with the goal to showcase constant improvement overtime to stakeholders and leaders.
+                </li>
+                <li>Initiated various meetings across various time zones to collaborate with business leaders to simplify currently complex standards of process (SOP) for data.</li>
             </p>
             <br />
             <p>Company: <strong> i.c.stars *| MILWAUKEE </strong></p>
             <p>Role: Resident, Technical Analyst Intern</p>
-            <p>Date: 02/2021 - Current Resident</p>
+            <p>Date: 01/2021 - Current Resident</p>
             <p>
-                i.c.stars' rigorous four-month technology training and leadership program offers 1,000+ hours of immersive, hands-on, project-based learning in a fast-paced Agile environment. I was apart of Cycle 7, where I was frequently praised as #1, mainly on the technical front. During my time at i.c.stars, I've established myself as a leader where I have helped almost everyone within the cycle with at least 1 problem, even the staff. Being a resident, my role now is to develope more leaders in the upcoming Cycle 8 by teaching JavaScript, React, and mentoring one of the interns.
+                <li>Initialized the process of designing a wireframe, a workflow model, and using React.js to build a front-end tech portal for all of MCBC (Molson Coors Beverage Company).
+                </li>
+                <li>Collaborated with the team and end-users to identify requirements, designs, and solutions to our client, MCBC. Reimagine the current client-facing portal to a modern look and organized functionality that engages the user and builds a community for all users.
+                </li>
+                <li>Communicated with professionals in the IT field, project managers, CIOs, etc.
+                </li>
             </p>
         </div>
     );

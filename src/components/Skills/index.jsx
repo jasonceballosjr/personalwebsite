@@ -8,6 +8,7 @@ const About = () => {
                 <div>
                     <strong>Languages:</strong>
                     <li>JavaScript</li>
+                    <li>Solidity</li>
                     <li>Python</li>
                     <li>Swift</li>
                     <li>Java</li>
@@ -16,12 +17,12 @@ const About = () => {
                 <div>
                     <strong>Libraries:</strong>
                     <li>Express.js</li>
-                    <li>Three.js</li>
+                    <li>Web3.js</li>
                     <li>React.js</li>
                 </div>
                 <div>
                     <strong>Cloud:</strong>
-                    <li>AWS Certified</li>
+                    <li>AWS</li>
                     <li>Azure Experience</li>
                 </div>
 
