@@ -5,7 +5,7 @@ const About = () => {
         <div className="works">
             <h1>Experiences</h1>
             <p>Company:<strong> GE Healthcare</strong></p>
-            <p>Role: DT Intern</p>
+            <p>Role: Digital Technology Project Manager Intern</p>
             <p>Date: 07/2021</p>
             <p>
                 <li>Lead a cross functional team on automating manual data loads and their respective data sources in all modalities within GE Healthcare (Highest Priority).</li>
