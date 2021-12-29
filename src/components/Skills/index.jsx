@@ -13,6 +13,7 @@ const About = () => {
                     <li>Swift</li>
                     <li>Java</li>
                     <li>C++</li>
+                    <li>SQL</li>
                 </div>
                 <div>
                     <strong>Libraries:</strong>
