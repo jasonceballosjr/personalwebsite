@@ -1,19 +1,29 @@
-import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
-import './App.css';
-import Blog from './pages/Blog';
-import Home from './pages/Home';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Works from "./components/Works";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import './app.css';
 
 const App = () => {
-  return (
-    <div className='container'>
-      <Switch>
-        <Route path='/' exact component={Home} />
-        <Route path='/blog/:id' component={Blog} />
-        <Redirect to='/' />
-      </Switch>
-    </div>
-  );
-};
+    return (
+        <Router>
+            <div className="app">
+                <NavBar />
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route exact path="/about" component={About} />
+                    <Route exact path="/skills" component={Skills} />
+                    <Route exact path="/works" component={Works} />
+                    <Route exact path="/contact" component={Contact} />
+                </Switch>
+                <Footer />
+            </div>
+        </Router>
+    );
+}
 
 export default App;
