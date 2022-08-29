@@ -9,7 +9,7 @@ const Home = () => {
                 <h1>
                     <p>Hi,</p>
                     <p>I am Jason!</p>
-                    <p>Software Engineer</p>
+                    <p>Software Engineer testing</p>
                 </h1>
                 <Link to="about">
                     <button>More Info</button>
