@@ -20,11 +20,12 @@ const About = () => {
                     <li>Express.js</li>
                     <li>Web3.js</li>
                     <li>React.js</li>
+                    <li>Angular.js</li>
                 </div>
                 <div>
                     <strong>Cloud:</strong>
                     <li>AWS</li>
-                    <li>Azure Experience</li>
+                    <li>Some Azure</li>
                 </div>
 
             </div>

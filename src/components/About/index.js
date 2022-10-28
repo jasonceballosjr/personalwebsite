@@ -5,12 +5,7 @@ const About = () => {
         <div className="about">
             <h1>Bio</h1>
             <p>
-                Hello! My name is Jason Ceballos and I am Digital Technology Project Manager Intern at GE Healthcare. I am a technology enthusiast and I have a passion for creating. I aspire to work for Big Tech in the future, contributing to a team that makes a positive impact to company and the world. When I'm not programming or tinkering with computer parts, I can be found playing some of my favorite games with my best friend, Crispin. I teach and mentor incoming cycles that get recruited into i.c.stars. Lastly, I run a small company called &nbsp;
-                <a
-                    href="https://ukiyo.style/"
-                    target="_blank">
-                    Ukiyo Style
-                </a> with my partner, Yuki, where we sell press-on nails and skin care.
+                Hello! My name is Jason Ceballos. Some things about me are that I enjoy playing piano, playing tennis, and I have a passion for technology. I was born in OK but I was raised in Milwaukee almost my entire life. About 98% of it. I love video games, especially the classics like Kingdom Hearts, Shadow of the Colossus, and Minecraft. Thank you for visiting my website!
             </p>
             <br />
             <h1>Tech Journey</h1>

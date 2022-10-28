@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import './app.css';
+import './App.css';
 
 const App = () => {
     return (

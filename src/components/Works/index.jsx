@@ -1,15 +1,42 @@
 import "./style.css";
 import gelogo from '../../pics/gelogo.png';
 import icstars from '../../pics/ics.png';
+import mcbc from '../../pics/mcbc.jpg';
 
 const About = () => {
     return (
         <div className="works">
             <h1>Experiences</h1>
+            <div className="toppart2">
+                <p>Company: <strong>Molson Coors Beverage Company </strong></p>
+                <p>Role: Data Analyst</p>
+                <p>Date: 03/2022 - Present</p>
+            </div>
+            <div className="company">
+                <img
+                    src={mcbc}
+                    alt="i.c.stars |* MILWAUKEE"
+                />
+            </div>
+
+            <p>
+                <li>Design, develop, deploy, and transition solutions to address business requirements including deciding on integrated data designs across varying platforms from relational to big data.
+
+                </li>
+                <li>Constructed a single and authoritative repository of the enterprise’s data through conceptual, logical, and physical data models, as well as data flow diagrams at various levels of detail.
+
+                </li>
+                <li>Partnered with the business to drive continuous improvement in data governance practices, leading the implementation including leading education programs around data governance and data quality.
+
+                </li>
+                <li>Responsible for syncing the data models to the database so there are no inconsistencies as MCBC transitions everything to the Cloud.
+                </li>
+            </p>
+            <br></br>
             <div className="toppart">
                 <p>Company:<strong> GE Healthcare</strong></p>
                 <p>Role: Digital Technology Project Manager Intern</p>
-                <p>Date: 07/2021</p>
+                <p>Date: 07/2021 - 02/2022</p>
             </div>
             <div className="company">
                 <img
@@ -46,7 +73,11 @@ const About = () => {
                 <li>Communicated with professionals in the IT field, project managers, CIOs, etc.
                 </li>
             </p>
+
+            
         </div>
+
+        
     );
 };
 
