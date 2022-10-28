@@ -17,9 +17,9 @@
   padding-right: 69.5%;
   float: right;
 }
-@media (min-width: 800px) {
+@media (min-width: 350px) {
   .company img{
-    width: 7%;
+    width: 90px;
     height: auto;
   } 
 }
