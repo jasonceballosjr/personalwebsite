@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className="works">
             <h1>Experiences</h1>
-            <div className="toppart2">
+            <div className="toppart">
                 <p>Company: <strong>Molson Coors Beverage Company </strong></p>
                 <p>Role: Data Analyst</p>
                 <p>Date: 03/2022 - Present</p>
@@ -16,9 +16,10 @@ const About = () => {
                 <img
                     src={mcbc}
                     alt="i.c.stars |* MILWAUKEE"
+
                 />
             </div>
-
+            <br></br>
             <p>
                 <li>Design, develop, deploy, and transition solutions to address business requirements including deciding on integrated data designs across varying platforms from relational to big data.
 
@@ -33,7 +34,7 @@ const About = () => {
                 </li>
             </p>
             <br></br>
-            <div className="toppart">
+            <div className="toppart2">
                 <p>Company:<strong> GE Healthcare</strong></p>
                 <p>Role: Digital Technology Project Manager Intern</p>
                 <p>Date: 07/2021 - 02/2022</p>
@@ -52,8 +53,8 @@ const About = () => {
                 </li>
                 <li>Initiated various meetings across various time zones to collaborate with business leaders to simplify currently complex standards of process (SOP) for data.</li>
             </p>
-            <br />
-            <div className="toppart2">
+            <br></br>
+            <div className="toppart3">
                 <p>Company: <strong> i.c.stars *| MILWAUKEE </strong></p>
                 <p>Role: Resident, Technical Analyst Intern</p>
                 <p>Date: 01/2021 - Current Resident</p>
