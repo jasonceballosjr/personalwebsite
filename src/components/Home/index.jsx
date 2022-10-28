@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import jason from '../../pics/jason.jpg';
 import "./style.css";
-
+import React from "react";
 const Home = () => {
     return (
         <div className="home">

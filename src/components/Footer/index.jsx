@@ -1,7 +1,7 @@
 import "./style.css";
 import li from '../../pics/li.png';
 import gh from '../../pics/gh.png';
-
+import React from "react";
 const Footer = () => {
     return (
         <footer>

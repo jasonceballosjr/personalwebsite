@@ -4,6 +4,7 @@ import "./style.css";
 import me from '../../pics/me.png';
 import bars from '../../pics/bars.png';
 import cross from '../../pics/cross.png';
+import React from "react";
 
 const NavBar = () => {
     const [open, setOpen] = useState(false);

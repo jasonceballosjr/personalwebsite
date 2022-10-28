@@ -2,7 +2,7 @@ import "./style.css";
 import gelogo from '../../pics/gelogo.png';
 import icstars from '../../pics/ics.png';
 import mcbc from '../../pics/mcbc.jpg';
-
+import React from "react";
 const About = () => {
     return (
         <div className="works">
